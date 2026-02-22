@@ -4,7 +4,7 @@ A high-performance, real-time visualization of an underground mine safety operat
 
 ## 📺 Project Demo
 
-![Reactore Mining Demo](demo.mp4)
+[Watch the System Demo (demo.mp4)](./demo.mp4)
 
 ![Project Status](https://img.shields.io/badge/Status-Development-orange)
 ![Three.js](https://img.shields.io/badge/Powered%20By-Three.js-black)
