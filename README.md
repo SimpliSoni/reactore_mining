@@ -4,9 +4,7 @@ A high-performance, real-time visualization of an underground mine safety operat
 
 ## 📺 Project Demo
 
-https://github.com/user-attachments/assets/demo.mp4
-
-<video src="demo.mp4" width="100%" controls autoplay loop muted></video>
+<video src="./demo.mp4" width="100%" controls autoplay loop muted></video>
 
 ![Project Status](https://img.shields.io/badge/Status-Development-orange)
 ![Three.js](https://img.shields.io/badge/Powered%20By-Three.js-black)
