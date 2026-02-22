@@ -1,14 +1,12 @@
 import * as THREE from "three";
 import { Truck } from "../world/Truck";
 import { NavGraph } from "./NavGraph";
-import { BVHManager } from "../tools/BVHManager";
 import { stateBus } from "./StateBus";
 
 export class EquipmentManager {
   private trucks: Truck[] = [];
   private navGraph: NavGraph;
   private scene: THREE.Scene;
-  private bvhManager: BVHManager;
 
   // Tunnel/Cavern structures for distance-from-curve collision
   private tunnelStructures: {
@@ -36,7 +34,6 @@ export class EquipmentManager {
   constructor(scene: THREE.Scene, navGraph: NavGraph) {
     this.scene = scene;
     this.navGraph = navGraph;
-    this.bvhManager = BVHManager.getInstance();
     this.heatmapGroup = new THREE.Group();
     this.heatmapGroup.visible = false;
     this.scene.add(this.heatmapGroup);
