@@ -4,6 +4,7 @@ A high-performance, real-time visualization of an underground mine safety operat
 
 ## 📺 Project Demo
 
+live at : https://reactore-mining.vercel.app/
 [Watch the System Demo (demo.mp4)](./demo.mp4)
 
 ![Project Status](https://img.shields.io/badge/Status-Development-orange)
